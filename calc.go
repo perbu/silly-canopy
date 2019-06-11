@@ -42,7 +42,7 @@ func calc(input chan string, output chan string) {
 
 func main() {
 	keepRunning := true
-	fmt.Printf("Hello\n")
+	fmt.Printf("Hello - This is Silly Canopy 0.1\n")
 	inputC := make(chan string)
 	outputC := make(chan string)
 	go calc(inputC, outputC)
