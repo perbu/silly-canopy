@@ -54,5 +54,6 @@ func main() {
 		inputC <- text
 		fmt.Printf("Calculated: %s\n", <-outputC)
 	}
+	fmt.Printf("Program exiting\n")
 
 }
